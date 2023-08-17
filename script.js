@@ -6,7 +6,7 @@ function addToDisplay(value) {
 }
 
 function updateDisplay() {
-   document.getElementById("display").value = displayValue;
+   document.getElementById("displuy").value = null;
 }
 
 function calculate() {
