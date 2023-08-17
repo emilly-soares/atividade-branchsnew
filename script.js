@@ -14,3 +14,9 @@ function calculate() {
       updateDisplay();
    }
 }
+
+function clearDisplay() {
+   displayValue = "";
+   updateDisplay();
+}
+
