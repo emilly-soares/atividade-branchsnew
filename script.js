@@ -5,3 +5,12 @@ function addToDisplay(value) {
    updateDisplay();
 }
 
+function calculate() {
+   try {
+      displayValue = eval(displayValue);
+      updateDisplay();
+   } catch (error) {
+      displayValue = "Erro";
+      updateDisplay();
+   }
+}
