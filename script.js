@@ -22,3 +22,5 @@ function clearDisplay() {
    displayValue = "";
    updateDisplay();
 }
+
+window.onload = updateDisplay;
