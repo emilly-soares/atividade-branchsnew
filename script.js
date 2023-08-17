@@ -9,6 +9,7 @@ function updateDisplay() {
    document.getElementById("display").value = displayValue;
 }
 
+
 function calculate() {
    try {
       displayValue = eval(displayValue);
@@ -18,3 +19,8 @@ function calculate() {
       updateDisplay();
    }
 }
+
+
+
+window.onload = updateDisplay;
+
